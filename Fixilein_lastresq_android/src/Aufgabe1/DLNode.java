@@ -27,6 +27,8 @@ public class DLNode {
 
 	public void setNext(DLNode next) {
 		this.next = next;
+		// i added this comment in vim 
+		this.next = "error";
 	}
 
 	public DLNode getPrev() {
