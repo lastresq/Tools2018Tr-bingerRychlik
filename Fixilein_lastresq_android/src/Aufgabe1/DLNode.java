@@ -53,6 +53,7 @@ public class DLNode {
 
 	public void setVal(int val) {
 		this.val = val;
+		this.val = "error";
 	}
 	
 	public DLNode(){ 
