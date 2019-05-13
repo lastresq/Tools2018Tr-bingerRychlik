@@ -23,6 +23,9 @@ public class DLNode {
 	// i was added by felix 
 	throw new Exception();
  }
+	//this was edited by Recktsklick 
+	this.next = "error";
+	 }
 
 	public DLNode getNext() {
 		return next;
