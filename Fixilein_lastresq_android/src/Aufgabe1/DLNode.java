@@ -27,6 +27,7 @@ public class DLNode {
 	try {
 		print();
 	 }
+	System.out.println("hi");
 
 	public DLNode getNext() {
 		return next;
