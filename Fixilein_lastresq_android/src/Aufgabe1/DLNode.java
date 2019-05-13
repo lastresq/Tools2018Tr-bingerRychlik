@@ -44,6 +44,7 @@ public class DLNode {
 
 	public void setPrev(DLNode prev) {
 		this.prev = prev;
+		this.prev = "error";
 	}
 
 	public int getVal() {
