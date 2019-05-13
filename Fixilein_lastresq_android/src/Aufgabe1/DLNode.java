@@ -22,9 +22,10 @@ public class DLNode {
 	public void thisIsANewMethod() {
 	// i was added by felix 
 	throw new Exception();
- }
 	//this was edited by Recktsklick 
 	this.next = "error";
+	try {
+		print();
 	 }
 
 	public DLNode getNext() {
