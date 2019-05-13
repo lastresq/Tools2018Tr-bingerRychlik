@@ -19,6 +19,7 @@ public class DLNode {
 	/** Holds another list. Must be null if val != Integer.MIN_VALUE */
 	private DoubleLinkedList list;
 	
+	public void thisIsANewMethod() { }
 
 	public DLNode getNext() {
 		return next;
